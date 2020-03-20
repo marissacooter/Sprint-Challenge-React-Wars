@@ -38,6 +38,7 @@ const App = () => {
             key={index} 
             height={character.height}
             gender={character.gender}
+            homeworld={character.homeworld}
           />
         )
       })}
