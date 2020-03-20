@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+1. A: React is a Javascript library used for building interfaces for single page applications. React solves many problems but mainly solves the issue of changing or manipulating data on the page to be dynamic rather than static. Things such as data that would be hardcoded like a date could be manipulated to update with the current date, for example. It also allows us to update styles on the page.
+
 - [ ] What does it mean to _think_ in react?
+
+2. A: Thinking in React means we must think about the build of our webpage before we place any of the data or content, beginning with building a static version of your webpage. 
 
 - [ ] Describe state.
 
+3. A: State describes the status of an entire program or an individual state. It acts as an “area” for us to store data of any type, such as text, integers and booleans to use to update our data once we refer to it.
+
 - [ ] Describe props.
 
+4. A: In React, props is short for properties. Props are single values or objects containing a set of values that we can pass to React components to use. In a way they help us keep dry code so that if patters emerge in our code we do not have to repeat ourselves.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+5. A: Side effects in Javascript are changes in state when object properties are changed or updated. To sync our effects in React we need to use useEffect which allows us to set the state whenever props change.
 
 ## Project Set Up
 
