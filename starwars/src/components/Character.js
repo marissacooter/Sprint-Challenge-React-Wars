@@ -4,15 +4,23 @@ import styled from 'styled-components';
 
 const Character = props => {
     return (
-        <Container>
-            <CharName>{props.name}</CharName> 
-            <CharHeight>{props.height}</CharHeight>
-            <CharGender>{props.gender}</CharGender>
-        </Container>
+        <Outer>
+            <Container>
+                <CharName>{props.name}</CharName> 
+                <CharHeight>{props.height}</CharHeight>
+                <CharGender>{props.gender}</CharGender>
+            </Container>
+        </Outer>
     )
 }
 
 // STYLED COMPONENTS:
+
+const Outer = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`
 
 const Container = styled.div`
     display: flex;
